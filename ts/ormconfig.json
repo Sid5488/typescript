@@ -1,0 +1,17 @@
+{
+    "type":"mysql",
+    "host":"localhost",
+    "username":"clinica",
+    "password":"clinica123",
+    "database":"clinic",
+    "entities": [
+        "./src/models/*.ts"
+    ],
+    "migrations": [
+        "./src/database/migrations/*.ts"
+    ],
+
+    "cli": {
+        "migrationsDir": "./src/database/migrations"
+    }
+}
